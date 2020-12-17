@@ -1,0 +1,21 @@
+Serialising JSON
+Python 		Json
+dict		object
+list,tuple	array
+string		string
+int,float	number
+True		true
+False		false
+None		null
+
+
+Deserialising JSON
+JSON 		Python
+object		dict
+array		list
+string		string
+number(int)	int
+number(float)	float
+true		True
+false		False
+null		None
