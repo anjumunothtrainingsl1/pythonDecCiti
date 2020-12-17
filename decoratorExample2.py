@@ -17,6 +17,7 @@ def percent(func):
 @star
 @percent
 def printer(msg):
+    print(func.__name__)
     print(msg)
 
 

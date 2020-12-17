@@ -33,6 +33,8 @@ george=Student.createStudentUsingJson({"studId":101,"studName":"George","grades"
 res=Student.compareStudents(tom,bill)
 res1=george.compareStudents(tom,bill)
 
+# Student.comapareStudents(tom,bill)
+
 print("Result1",res1)
 
 print("Result",res)
@@ -41,3 +43,5 @@ g1=george.createStudentUsingJson({"studId":102,"studName":"G1","grades":"d"})
 print(g1.studId)
 print(george.studId)
 # static factory pattern
+
+
